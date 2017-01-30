@@ -1,0 +1,26 @@
+{
+  "name": "node-api",
+  "version": "1.0.0",
+  "description": "RESTful API Using Node and Express 4",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zevwl/node-api.git"
+  },
+  "author": "zevwl",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zevwl/node-api/issues"
+  },
+  "homepage": "https://github.com/zevwl/node-api#readme",
+  "dependencies": {
+    "body-parser": "^1.16.0",
+    "dotenv": "^4.0.0",
+    "express": "^4.14.1",
+    "mongoose": "^4.8.0"
+  }
+}
